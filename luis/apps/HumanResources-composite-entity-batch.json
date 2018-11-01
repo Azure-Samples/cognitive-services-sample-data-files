@@ -1,0 +1,38 @@
+[
+  {
+    "text": "begin paperwork to set x12345 leaving a-3459 headed to f-34567",
+    "intent": "MoveEmployee",
+    "entities": [{
+      "entity": "RequestEmployeeMove",
+      "startPos": 23,
+      "endPos": 61
+    }]
+  },
+  {
+    "text": "begin paperwork to set x12345 leaving a-3459 headed to f-34567",
+    "intent": "MoveEmployee",
+    "entities": [{
+      "entity": "Employee",
+      "startPos": 23,
+      "endPos": 28
+    }]
+  },  
+  {
+    "text": "begin paperwork to set x12345 leaving a-3459 headed to f-34567",
+    "intent": "MoveEmployee",
+    "entities": [{
+      "entity": "Locations::Origin",
+      "startPos": 38,
+      "endPos": 43
+    }]
+  },   
+  {
+    "text": "begin paperwork to set x12345 leaving a-3459 headed to f-34567",
+    "intent": "MoveEmployee",
+    "entities": [{
+      "entity": "Locations::Destination",
+      "startPos": 55,
+      "endPos": 61
+    }]
+  }   
+]
