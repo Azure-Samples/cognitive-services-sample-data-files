@@ -16,3 +16,10 @@ These sample files are used to build models, update models, run tests, and impor
 |Type of file|Purpose|
 |--|--|
 |[Data sources](./data-source-formats/)|Knowledge bases (KBs) can add questions and answers from a variety of file types. See [Data sources for QnA Maker content](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/concepts/data-sources-supported) for more information. |
+
+
+## [Computer Vision](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/home)
+
+|Type of file|Purpose|
+|--|--|
+| [Images](./ComputerVision/Images) | Sample images for Computer Vision SDK and Rest API quickstarts |
