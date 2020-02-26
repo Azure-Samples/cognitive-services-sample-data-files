@@ -23,3 +23,10 @@ These sample files are used to build models, update models, run tests, and impor
 |Type of file|Purpose|
 |--|--|
 | [Images](./ComputerVision/Images) | Sample images for Computer Vision SDK and Rest API quickstarts |
+
+## [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)
+
+|Type of file|Purpose|
+|--|--|
+| [Flow diagrams](./TextAnalytics/flow-diagrams) | Example flow diagrams for using Power Automate with Text Analytics. |
+| [Sample data](./TextAnalytics/sample-data) | Example data files for Text Analytics tutorials. |
