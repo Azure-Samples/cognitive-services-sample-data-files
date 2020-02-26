@@ -29,4 +29,4 @@ These sample files are used to build models, update models, run tests, and impor
 |Type of file|Purpose|
 |--|--|
 | [Flow diagrams](./TextAnalytics/flow-diagrams) | Example flow diagrams for using Power Automate with Text Analytics. |
-| [Sample data files](./TextAnalytics/sample-data) | Example datasheets for Text Analytics tutorials. |
+| [Sample data](./TextAnalytics/sample-data) | Example data files for Text Analytics tutorials. |
