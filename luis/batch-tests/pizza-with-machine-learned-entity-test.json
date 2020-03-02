@@ -1,0 +1,18 @@
+[
+    {
+        "text": "I want to pick up 1 cheese pizza",
+        "intent": "ModifyOrder",
+        "entities": [
+            {
+                "entity": "Order",
+                "startPos": 18,
+                "endPos": 31
+            },
+            {
+                "entity": "ToppingList",
+                "startPos": 20,
+                "endPos": 25
+            }
+        ]
+    }
+]
