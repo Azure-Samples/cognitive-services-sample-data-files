@@ -1,0 +1,251 @@
+{
+  "luis_schema_version": "6.0.0",
+  "intents": [
+    {
+      "name": "Confirm",
+      "features": []
+    },
+    {
+      "name": "Greeting",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "OrderPizza",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "Order",
+      "children": [
+        {
+          "name": "Size",
+          "children": [],
+          "features": [
+            {
+              "featureName": "SizeDescriptor"
+            }
+          ]
+        },
+        {
+          "name": "Quantity",
+          "instanceOf": "number",
+          "children": [],
+          "features": []
+        }
+      ],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [
+    {
+      "name": "number",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "barking dogs are annoying",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "begin",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "can i get a pepperoni pizza and a can of coke please",
+      "intent": "OrderPizza",
+      "entities": [
+        {
+          "entity": "Order",
+          "startPos": 10,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "can i get a small pizza with onions peppers and olives",
+      "intent": "OrderPizza",
+      "entities": [
+        {
+          "entity": "Size",
+          "startPos": 12,
+          "endPos": 16
+        },
+        {
+          "entity": "Order",
+          "startPos": 12,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "delivery for a small pepperoni pizza",
+      "intent": "OrderPizza",
+      "entities": [
+        {
+          "entity": "Size",
+          "startPos": 15,
+          "endPos": 19
+        },
+        {
+          "entity": "Order",
+          "startPos": 15,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "go ahead",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "i need 2 large cheese pizzas 6 large pepperoni pizzas and 1 large supreme pizza",
+      "intent": "OrderPizza",
+      "entities": [
+        {
+          "entity": "Quantity",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Order",
+          "startPos": 7,
+          "endPos": 78
+        },
+        {
+          "entity": "Size",
+          "startPos": 9,
+          "endPos": 13
+        },
+        {
+          "entity": "Quantity",
+          "startPos": 29,
+          "endPos": 29
+        },
+        {
+          "entity": "Size",
+          "startPos": 31,
+          "endPos": 35
+        },
+        {
+          "entity": "Quantity",
+          "startPos": 58,
+          "endPos": 58
+        },
+        {
+          "entity": "Size",
+          "startPos": 60,
+          "endPos": 64
+        }
+      ]
+    },
+    {
+      "text": "ok",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "order a pizza for me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "penguins in the ocean",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "pickup a cheddar cheese pizza large with extra anchovies",
+      "intent": "OrderPizza",
+      "entities": [
+        {
+          "entity": "Order",
+          "startPos": 0,
+          "endPos": 55
+        },
+        {
+          "entity": "Size",
+          "startPos": 30,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "pickup xl meat lovers pizza",
+      "intent": "OrderPizza",
+      "entities": [
+        {
+          "entity": "Size",
+          "startPos": 7,
+          "endPos": 8
+        },
+        {
+          "entity": "Order",
+          "startPos": 7,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "start",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "sure",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "Confirm",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "Pizza tutorial with entities",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [
+    {
+      "name": "SizeDescriptor",
+      "mode": true,
+      "words": "small,medium,large,extra large,xl",
+      "activated": true,
+      "enabledForAllModels": false
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}

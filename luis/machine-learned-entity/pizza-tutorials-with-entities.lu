@@ -1,0 +1,72 @@
+
+> LUIS application information
+> !# @app.name = Pizza tutorial with entities
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 6.0.0
+
+
+> # Intent definitions
+
+## Confirm
+- go ahead
+- ok
+- sure
+- yes
+
+
+@ intent Confirm
+
+## Greeting
+- begin
+- hello
+- hey
+- hi
+- start
+
+
+@ intent Greeting
+
+## None
+- barking dogs are annoying
+- order a pizza for me
+- penguins in the ocean
+
+
+@ intent None
+
+## OrderPizza
+- can i get {@Order=a pepperoni pizza and a can of coke} please
+- can i get a {@Order={@Size=small} pizza with onions peppers and olives}
+- delivery for a {@Order={@Size=small} pepperoni pizza}
+- i need {@Order={@Quantity=2} {@Size=large} cheese pizzas {@Quantity=6} {@Size=large} pepperoni pizzas and {@Quantity=1} {@Size=large} supreme pizza}
+- {@Order=pickup a cheddar cheese pizza {@Size=large} with extra anchovies}
+- pickup {@Order={@Size=xl} meat lovers pizza}
+
+
+@ intent OrderPizza
+
+> # Entity definitions
+
+@ ml Order
+    - @ ml Size usesFeature SizeDescriptor
+    - @ number Quantity
+
+
+
+> # PREBUILT Entity definitions
+
+@ prebuilt number
+
+
+> # Phrase list definitions
+
+@ phraselist SizeDescriptor(interchangeable) = 
+	- small,medium,large,extra large,xl
+
+
+> # List entities
+
+> # RegEx entities
+
+

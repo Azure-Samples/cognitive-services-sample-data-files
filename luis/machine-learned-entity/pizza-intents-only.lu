@@ -1,0 +1,61 @@
+
+> LUIS application information
+> !# @app.name = Pizza tutorial intents only
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 6.0.0
+
+
+> # Intent definitions
+
+## Confirm
+- go ahead
+- ok
+- sure
+- yes
+
+
+@ intent Confirm
+
+## Greeting
+- begin
+- hello
+- hey
+- hi
+- start
+
+
+@ intent Greeting
+
+## None
+- barking dogs are annoying
+- order a pizza for me
+- penguins in the ocean
+
+
+@ intent None
+
+## OrderPizza
+- can i get a pepperoni pizza and a can of coke please
+- can i get a small pizza with onions peppers and olives
+- delivery for a small pepperoni pizza
+- i need 2 large cheese pizzas 6 large pepperoni pizzas and 1 large supreme pizza
+- pickup a cheddar cheese pizza large with extra anchovies
+
+
+@ intent OrderPizza
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+
