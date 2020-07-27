@@ -1,0 +1,124 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "myEnglishApp",
+  "desc": "App made with LUIS Portal",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "FindForm"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [
+    {
+      "name": "Human Resources Form Number",
+      "regexPattern": "hrf-[0-9]{6}",
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "barking dogs are annoying",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do i need hrf-234695 to apply for an internal job?",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "do i use form hrf-876345 to apply for engineering positions",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "do i use hrf-234234 for international jobs?",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "does my manager need to know i'm applying for a job with hrf-234091",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "hrf-123456, hrf-123123, hrf-234567",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "hrf-234555",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "hrf-234598 spelling mistake",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "hrf-345623, where is it",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "is it possible to send me hrf-345794",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "looking for hrf-123456",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "order a pizza for me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "penguins in the ocean",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "was a new version of hrf-765234 submitted for my open req?",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "when was hrf-234987 updated?",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "where do i send hrf-234918? do i get an email response it was received?",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "where is the human resources form hrf-234591?",
+      "intent": "FindForm",
+      "entities": []
+    },
+    {
+      "text": "will hrf-234567 be edited for new requirements",
+      "intent": "FindForm",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
