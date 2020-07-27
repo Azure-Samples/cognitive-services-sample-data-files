@@ -1,0 +1,124 @@
+{
+  "luis_schema_version": "6.0.0",
+  "intents": [
+    {
+      "name": "Confirm",
+      "features": []
+    },
+    {
+      "name": "Greeting",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "OrderPizza",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "barking dogs are annoying",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "begin",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "can i get a pepperoni pizza and a can of coke please",
+      "intent": "OrderPizza",
+      "entities": []
+    },
+    {
+      "text": "can i get a small pizza with onions peppers and olives",
+      "intent": "OrderPizza",
+      "entities": []
+    },
+    {
+      "text": "delivery for a small pepperoni pizza",
+      "intent": "OrderPizza",
+      "entities": []
+    },
+    {
+      "text": "go ahead",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "i need 2 large cheese pizzas 6 large pepperoni pizzas and 1 large supreme pizza",
+      "intent": "OrderPizza",
+      "entities": []
+    },
+    {
+      "text": "ok",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "order a pizza for me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "penguins in the ocean",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "pickup a cheddar cheese pizza large with extra anchovies",
+      "intent": "OrderPizza",
+      "entities": []
+    },
+    {
+      "text": "start",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "sure",
+      "intent": "Confirm",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "Confirm",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "Pizza tutorial intents only",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
