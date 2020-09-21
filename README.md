@@ -22,7 +22,8 @@ These sample files are used to build models, update models, run tests, and impor
 
 |Type of file|Purpose|
 |--|--|
-| [Images](./ComputerVision/Images) | Sample images for Computer Vision SDK and Rest API quickstarts |
+| [Images](./ComputerVision/Images) | Sample images for Computer Vision SDK and Rest API quickstarts. |
+| [Spatial analysis](./ComputerVision/spatial-analysis) | Sample deployment manifest for spatial analysis container. |
 
 ## [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)
 
