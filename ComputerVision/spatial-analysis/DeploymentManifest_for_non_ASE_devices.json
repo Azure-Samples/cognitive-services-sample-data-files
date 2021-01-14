@@ -28,10 +28,10 @@
                             "EULA": {
                                 "value": "accept"
                             },
-                            "BILLING_ENDPOINT":{
+                            "BILLING":{
                                 "value": "<Use endpoint from Computer Vision Azure resource>"
                             },
-                            "API_KEY":{
+                            "APIKEY":{
                                 "value": "<Use the key from Computer Vision Azure resource>"
                             }
                         },
