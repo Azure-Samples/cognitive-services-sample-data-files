@@ -123,7 +123,6 @@
                     "settings": {
                         "minDockerVersion": "v1.25"
                         }
-                    }
                 },
                 "schemaVersion": "1.0",
                 "systemModules": {
