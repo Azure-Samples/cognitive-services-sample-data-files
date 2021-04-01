@@ -6,7 +6,7 @@
                     "spatialanalysis": {
                         "settings": {
                             "image": "mcr.microsoft.com/azure-cognitive-services/vision/spatial-analysis:latest",
-                            "createOptions": "{\"HostConfig\":{\"Binds\":[\"/tmp/.X11-unix:/tmp/.X11-unix\"],\"Runtime\":\"nvidia\",\"ShmSize\":536870911,\"LogConfig\":{\"Type\":\"json-file\",\"Config\":{\"max-size\":\"100m\",\"max-file\":\"2000\"}}}}"
+                            "createOptions": "{\"k8s-experimental\": {\"volumes\": [{\"volume\": {\"name\": \"dshm\",\"emptyDir\": {\"medium\": \"Memory\",\"sizeLimit\": 536870912}},\"volumeMounts\": [{\"name\": \"dshm\",\"mountPath\": \"/dev/shm\",\"mountPropagation\": \"None\",\"readOnly\": \"false\",\"subPath\": \"\"}]}]},\"HostConfig\": {\"IpcMode\": \"host\",\"PortBindings\":{\"2222/tcp\":[{\"HostPort\":\"2222\"}]},\"Binds\": [\"/tmp/.X11-unix:/tmp/.X11-unix\"],\"Runtime\": \"nvidia\",\"ShmSize\":536870912,\"LogConfig\": {\"Type\": \"json-file\",\"Config\": {\"max-size\": \"10m\",\"max-file\": \"200\"}}}}"
                         },
                         "type": "docker",
                         "env": {
@@ -28,19 +28,19 @@
                             "EULA": {
                                 "value": "accept"
                             },
-                            "BILLING":{
-                                "value": "<Use endpoint from Computer Vision Azure resource>"
-                            },
-                            "APIKEY":{
-                                "value": "<Use the key from Computer Vision Azure resource>"
-                            },
                             "ARCHON_GRAPH_READY_TIMEOUT": {
                                 "value": "600"
                             },
                             "ORT_TENSORRT_ENGINE_CACHE_ENABLE": {
                                 "value": "0"
+                            },
+                            "BILLING":{
+                                "value": "<Use endpoint from Computer Vision Azure resource>"
+                            },
+                            "APIKEY":{
+                                "value": "<Use the key from Computer Vision Azure resource>"
                             }
-                           },
+                        },
                         "status": "running",
                         "restartPolicy": "always",
                         "version": "1.0"
@@ -163,56 +163,132 @@
                     "CustomerTelemetryEnabled": true
                 },
                 "graphs": {
-                    "personcount": {
+                    "personCount": {
                         "operationId": "cognitiveservices.vision.spatialanalysis-personcount",
                         "version": 1,
                         "enabled": true,
+                        "sharedNodes": {
+                            "personCountSharedDetector": {
+                                "node": "PersonCountGraph/detector",
+                                "parameters": {
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                }
+                            },
+                            "personCountSharedFacemask": {
+                                "node": "PersonCountGraph/facemask"
+                            }
+                        },
                         "parameters": {
-                            "VIDEO_URL": "<Replace RTSP URL here>",
-                            "VIDEO_SOURCE_ID": "personcountgraph",
-                            "VIDEO_DECODE_GPU_INDEX": 0,
-                            "VIDEO_IS_LIVE":true,
-                            "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0 }",
-                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\"}}], \"threshold\":16.0}]}"
+                            "VIDEO_DECODE_GPU_INDEX": 0
+                        },
+                        "instances": {
+                            "personCountInstance1": {
+                                "sharedNodeMap": {
+                                    "PersonCountGraph/detector": "personCountSharedDetector",
+                                    "PersonCountGraph/facemask": "personCountSharedFacemask"
+                                },
+                                "parameters": {
+                                    "VIDEO_URL": "<Replace RTSP URL here>",
+                                    "VIDEO_SOURCE_ID": "personCountCamera",
+                                    "VIDEO_IS_LIVE": true,
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}"
+                                }
+                            }
                         }
                     },
-                    "zonecrossing": {
+                    "personCrossingPolygonGraph": {
                         "operationId": "cognitiveservices.vision.spatialanalysis-personcrossingpolygon",
                         "version": 1,
                         "enabled": true,
+                        "sharedNodes": {
+                            "personCrossingPolygonSharedDetector": {
+                                "node": "PersonCrossingPolygonGraph/detector",
+                                "parameters": {
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                }
+                            },
+                            "personCrossingPolygonSharedFacemask": {
+                                "node": "PersonCrossingPolygonGraph/facemask"
+                            }
+                        },
                         "parameters": {
-                            "VIDEO_URL": "<Replace RTSP URL here>",
-                            "VIDEO_SOURCE_ID": "personcountgraph",
-                            "VIDEO_IS_LIVE":true,
-                            "VIDEO_DECODE_GPU_INDEX": 0,
-                            "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0 }",
-                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"zonecrossing\", \"config\":{\"trigger\": \"event\"}}], \"threshold\":16.0}]}"
+                            "VIDEO_DECODE_GPU_INDEX": 0
+                        },
+                        "instances": {
+                            "personCrossingPolygonGraphInstance1": {
+                                "sharedNodeMap": {
+                                    "PersonCrossingPolygonGraph/detector": "personCrossingPolygonSharedDetector",
+                                    "PersonCrossingPolygonGraph/facemask": "personCrossingPolygonSharedFacemask"
+                                },
+                                "parameters": {
+                                    "VIDEO_URL": "<Replace RTSP URL here>",
+                                    "VIDEO_SOURCE_ID": "polygonCrossingCamera",
+                                    "VIDEO_IS_LIVE": true,
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"zonedwelltime\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}, {\"type\":\"zonecrossing\", \"config\":{\"trigger\": \"event\", \"threshold\":48.0, \"focus\": \"footprint\"}}]}]}"
+                                }
+                            }
                         }
                     },
-                    "linecrossing": {
+                    "personCrossingLineGraph": {
                         "operationId": "cognitiveservices.vision.spatialanalysis-personcrossingline",
                         "version": 1,
                         "enabled": true,
+                        "sharedNodes": {
+                            "personCrossingLineSharedDetector": {
+                                "node": "PersonCrossingLineGraph/detector",
+                                "parameters": {
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                }
+                            },
+                            "personCrossingLineSharedFacemask": {
+                                "node": "PersonCrossingLineGraph/facemask"
+                            }
+                        },
                         "parameters": {
-                            "VIDEO_URL": "<Replace RTSP URL here>",
-                            "VIDEO_SOURCE_ID": "door_topdown",
-                            "VIDEO_IS_LIVE": true,
-                            "VIDEO_DECODE_GPU_INDEX": 0,
-                            "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0 }",
-                            "SPACEANALYTICS_CONFIG": "{\"lines\":[{\"name\":\"door\",\"line\":{\"start\":{\"x\":0,\"y\":0.5},\"end\":{\"x\":1,\"y\":0.5}},\"threshold\":23.0}]}"
+                            "VIDEO_DECODE_GPU_INDEX": 0
+                        },
+                        "instances": {
+                            "personCrossingLineGraphInstance1": {
+                                "sharedNodeMap": {
+                                    "PersonCrossingLineGraph/detector": "personCrossingLineSharedDetector",
+                                    "PersonCrossingLineGraph/facemask": "personCrossingLineSharedFacemask"
+                                },
+                                "parameters": {
+                                    "VIDEO_URL": "<Replace RTSP URL here>",
+                                    "VIDEO_SOURCE_ID": "lineCrossingCamera",
+                                    "VIDEO_IS_LIVE": true,
+                                    "SPACEANALYTICS_CONFIG": "{\"lines\":[{\"name\":\"door\",\"line\":{\"start\":{\"x\":0,\"y\":0.5},\"end\":{\"x\":1,\"y\":0.5}},\"events\": [{\"type\":\"linecrossing\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}"
+                                }
+                            }
                         }
                     },
-                    "persondistance": {
+                    "personDistanceGraph": {
                         "operationId": "cognitiveservices.vision.spatialanalysis-persondistance",
                         "version": 1,
                         "enabled": true,
+                        "sharedNodes": {
+                            "personDistanceSharedDetector": {
+                                "node": "PersonDistanceGraph/detector",
+                                "parameters": {
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                }
+                            }
+                        },
                         "parameters": {
-                            "VIDEO_URL": "<Replace RTSP URL here>",
-                            "VIDEO_SOURCE_ID": "persondistancegraph",
-                            "VIDEO_IS_LIVE":true,
-                            "VIDEO_DECODE_GPU_INDEX": 0,
-                            "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}",
-                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"threshold\": 16.00,\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0}}]}]}"
+                            "VIDEO_DECODE_GPU_INDEX": 0
+                        },
+                        "instances": {
+                            "personDistanceGraphInstance1": {
+                                "sharedNodeMap": {
+                                    "PersonDistanceGraph/detector": "personDistanceSharedDetector"
+                                },
+                                "parameters": {
+                                    "VIDEO_URL": "<Replace RTSP URL here>",
+                                    "VIDEO_SOURCE_ID": "personDistanceCamera",
+                                    "VIDEO_IS_LIVE": true,
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0, \"threshold\":16.0, \"focus\": \"footprint\", \"aggregation_method\": \"average\"}}]}]}"
+                                }
+                            }
                         }
                     }
                 }
