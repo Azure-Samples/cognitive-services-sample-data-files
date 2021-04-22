@@ -28,6 +28,9 @@
                             "EULA": {
                                 "value": "accept"
                             },
+                             "ARCHON_GRAPH_READY_TIMEOUT": {
+                                "value": "600"
+                            },
                             "BILLING":{
                                 "value": "<Use endpoint from Computer Vision Azure resource>"
                             },
