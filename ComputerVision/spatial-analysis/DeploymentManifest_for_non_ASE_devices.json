@@ -167,7 +167,9 @@
                             "VIDEO_DECODE_GPU_INDEX": 0,
                             "VIDEO_IS_LIVE":true,
                             "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0 }",
-                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\"}}], \"threshold\":16.0}]}"
+                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\"}}], \"threshold\":16.0}]}",
+                            "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}",
+                            "CALIBRATION_CONFIG": "{\"enable_recalibration\": true}"
                         }
                     },
                     "zonecrossing": {
@@ -180,7 +182,9 @@
                             "VIDEO_IS_LIVE":true,
                             "VIDEO_DECODE_GPU_INDEX": 0,
                             "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0 }",
-                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"zonecrossing\", \"config\":{\"trigger\": \"event\"}}], \"threshold\":16.0}]}"
+                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"zonecrossing\", \"config\":{\"trigger\": \"event\"}}], \"threshold\":16.0}]}",
+                            "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}",
+                            "CALIBRATION_CONFIG": "{\"enable_recalibration\": true}"
                         }
                     },
                     "linecrossing": {
@@ -193,7 +197,9 @@
                             "VIDEO_IS_LIVE": true,
                             "VIDEO_DECODE_GPU_INDEX": 0,
                             "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0 }",
-                            "SPACEANALYTICS_CONFIG": "{\"lines\":[{\"name\":\"door\",\"line\":{\"start\":{\"x\":0,\"y\":0.5},\"end\":{\"x\":1,\"y\":0.5}},\"threshold\":23.0}]}"
+                            "SPACEANALYTICS_CONFIG": "{\"lines\":[{\"name\":\"door\",\"line\":{\"start\":{\"x\":0,\"y\":0.5},\"end\":{\"x\":1,\"y\":0.5}},\"threshold\":23.0}]}",
+                            "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}",
+                            "CALIBRATION_CONFIG": "{\"enable_recalibration\": true}"
                         }
                     },
                     "persondistance": {
@@ -206,7 +212,9 @@
                             "VIDEO_IS_LIVE":true,
                             "VIDEO_DECODE_GPU_INDEX": 0,
                             "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}",
-                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"threshold\": 16.00,\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0}}]}]}"
+                            "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"threshold\": 16.00,\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0}}]}]}",
+                            "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}",
+                            "CALIBRATION_CONFIG": "{\"enable_recalibration\": true}"
                         }
                     }
                 }
