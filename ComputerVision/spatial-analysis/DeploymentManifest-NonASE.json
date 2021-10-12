@@ -163,7 +163,7 @@
                     "CustomerTelemetryEnabled": true
                 },
                 "graphs": {
-                    "personCount": {
+                    "personCountandDistance": {
                         "operationId": "cognitiveservices.vision.spatialanalysis-personcount",
                         "version": 1,
                         "enabled": true,
@@ -171,11 +171,17 @@
                             "personCountSharedDetector": {
                                 "node": "PersonCountGraph/detector",
                                 "parameters": {
-                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0}"
                                 }
                             },
                             "personCountSharedFacemask": {
                                 "node": "PersonCountGraph/facemask"
+                            },
+                            "personCountSharedCalibrator": {
+                                "node": "PersonCountGraph/cameracalibrator",
+                                "parameters": {
+                                    "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}"
+                                }
                             }
                         },
                         "parameters": {
@@ -185,7 +191,8 @@
                             "personCountInstance1": {
                                 "sharedNodeMap": {
                                     "PersonCountGraph/detector": "personCountSharedDetector",
-                                    "PersonCountGraph/facemask": "personCountSharedFacemask"
+                                    "PersonCountGraph/facemask": "personCountSharedFacemask",
+                                    "PersonCountGraph/cameracalibrator": "personCountSharedCalibrator"
                                 },
                                 "parameters": {
                                     "VIDEO_URL": "<Replace RTSP URL here>",
@@ -193,6 +200,18 @@
                                     "VIDEO_IS_LIVE": true,
                                     "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}"
                                 }
+                            },
+                            "personDistanceInstance1": {
+                                "sharedNodeMap": {
+                                    "PersonCountGraph/detector": "personCountSharedDetector",
+                                    "PersonCountGraph/facemask": "personCountSharedFacemask",
+                                    "PersonCountGraph/cameracalibrator": "personCountSharedCalibrator"
+                                },
+                                "parameters": {
+                                    "VIDEO_URL": "<Replace RTSP URL here>",
+                                    "VIDEO_SOURCE_ID": "personDistanceCamera",
+                                    "VIDEO_IS_LIVE": true,
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0, \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}" }
                             }
                         }
                     },
@@ -204,11 +223,17 @@
                             "personCrossingPolygonSharedDetector": {
                                 "node": "PersonCrossingPolygonGraph/detector",
                                 "parameters": {
-                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0}"
                                 }
                             },
                             "personCrossingPolygonSharedFacemask": {
                                 "node": "PersonCrossingPolygonGraph/facemask"
+                            },
+                            "personCrossingPolygonSharedCalibrator": {
+                                "node": "PersonCrossingPolygonGraph/cameracalibrator",
+                                "parameters": {
+                                    "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}"
+                                }
                             }
                         },
                         "parameters": {
@@ -218,7 +243,8 @@
                             "personCrossingPolygonGraphInstance1": {
                                 "sharedNodeMap": {
                                     "PersonCrossingPolygonGraph/detector": "personCrossingPolygonSharedDetector",
-                                    "PersonCrossingPolygonGraph/facemask": "personCrossingPolygonSharedFacemask"
+                                    "PersonCrossingPolygonGraph/facemask": "personCrossingPolygonSharedFacemask",
+                                    "PersonCrossingPolygonGraph/cameracalibrator": "personCrossingPolygonSharedCalibrator"
                                 },
                                 "parameters": {
                                     "VIDEO_URL": "<Replace RTSP URL here>",
@@ -237,11 +263,17 @@
                             "personCrossingLineSharedDetector": {
                                 "node": "PersonCrossingLineGraph/detector",
                                 "parameters": {
-                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
+                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0}"
                                 }
                             },
                             "personCrossingLineSharedFacemask": {
                                 "node": "PersonCrossingLineGraph/facemask"
+                            },
+                            "personCrossingLineSharedCalibrator": {
+                                "node": "PersonCrossingLineGraph/cameracalibrator",
+                                "parameters": {
+                                    "CAMERACALIBRATOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"do_calibration\": true}"
+                                }
                             }
                         },
                         "parameters": {
@@ -251,7 +283,8 @@
                             "personCrossingLineGraphInstance1": {
                                 "sharedNodeMap": {
                                     "PersonCrossingLineGraph/detector": "personCrossingLineSharedDetector",
-                                    "PersonCrossingLineGraph/facemask": "personCrossingLineSharedFacemask"
+                                    "PersonCrossingLineGraph/facemask": "personCrossingLineSharedFacemask",
+                                    "PersonCrossingLineGraph/cameracalibrator": "personCrossingLineSharedCalibrator"
                                 },
                                 "parameters": {
                                     "VIDEO_URL": "<Replace RTSP URL here>",
@@ -261,36 +294,8 @@
                                 }
                             }
                         }
-                    },
-                    "personDistanceGraph": {
-                        "operationId": "cognitiveservices.vision.spatialanalysis-persondistance",
-                        "version": 1,
-                        "enabled": true,
-                        "sharedNodes": {
-                            "personDistanceSharedDetector": {
-                                "node": "PersonDistanceGraph/detector",
-                                "parameters": {
-                                    "DETECTOR_NODE_CONFIG": "{ \"gpu_index\": 0, \"batch_size\": 1}"
-                                }
-                            }
-                        },
-                        "parameters": {
-                            "VIDEO_DECODE_GPU_INDEX": 0
-                        },
-                        "instances": {
-                            "personDistanceGraphInstance1": {
-                                "sharedNodeMap": {
-                                    "PersonDistanceGraph/detector": "personDistanceSharedDetector"
-                                },
-                                "parameters": {
-                                    "VIDEO_URL": "<Replace RTSP URL here>",
-                                    "VIDEO_SOURCE_ID": "personDistanceCamera",
-                                    "VIDEO_IS_LIVE": true,
-                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0, \"threshold\":16.0, \"focus\": \"footprint\", \"aggregation_method\": \"average\"}}]}]}"
-                                }
-                            }
-                        }
                     }
+                    
                 }
             }
         },
