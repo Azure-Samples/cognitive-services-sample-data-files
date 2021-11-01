@@ -1,0 +1,1482 @@
+{
+    "extractors": [
+        {
+            "name": "Date"
+        },
+        {
+            "name": "BorrowerName"
+        },
+        {
+            "name": "BorrowerAddress"
+        },
+        {
+            "name": "BorrowerCity"
+        },
+        {
+            "name": "BorrowerState"
+        },
+        {
+            "name": "LenderName"
+        },
+        {
+            "name": "LenderAddress"
+        },
+        {
+            "name": "LenderCity"
+        },
+        {
+            "name": "LenderState"
+        },
+        {
+            "name": "LoanAmountWords"
+        },
+        {
+            "name": "LoanAmountNumbers"
+        },
+        {
+            "name": "Interest"
+        }
+    ],
+    "documents": [
+        {
+            "location": "01.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1793,
+                    "labels": [
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 200,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 223,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 243,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 314,
+                            "length": 15
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 339,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 360,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 446,
+                            "length": 66
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 514,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 601,
+                            "length": 2
+                        },
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 273,
+                            "length": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "02.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1804,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 161,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 200,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 228,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 251,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 284,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 321,
+                            "length": 20
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 351,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 371,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 457,
+                            "length": 66
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 525,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 612,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "03.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1801,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 199,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 227,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 247,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 276,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 314,
+                            "length": 19
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 343,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 363,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 451,
+                            "length": 69
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 522,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 609,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "04.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1786,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 203,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 231,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 248,
+                            "length": 4
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 273,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 311,
+                            "length": 19
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 340,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 361,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 448,
+                            "length": 57
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 507,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 594,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "05.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1810,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 195,
+                            "length": 23
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 228,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 247,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 278,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 317,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 345,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 372,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 462,
+                            "length": 67
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 531,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 618,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "06.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1790,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 165,
+                            "length": 49
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 159,
+                            "length": 5
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 224,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 242,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 271,
+                            "length": 15
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 313,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 337,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 354,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 440,
+                            "length": 69
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 511,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 598,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "07.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1814,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 199,
+                            "length": 26
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 235,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 256,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 287,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 324,
+                            "length": 19
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 353,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 375,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 466,
+                            "length": 67
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 535,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 622,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "08.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1804,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 161,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 199,
+                            "length": 20
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 229,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 253,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 288,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 327,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 353,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 373,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 465,
+                            "length": 57
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 524,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 611,
+                            "length": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "09.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1790,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 161,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 199,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 223,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 240,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 271,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 311,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 339,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 357,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 444,
+                            "length": 65
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 511,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 598,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "10.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1795,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 198,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 226,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 244,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 273,
+                            "length": 15
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 315,
+                            "length": 25
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 350,
+                            "length": 5
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 366,
+                            "length": 5
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 449,
+                            "length": 65
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 516,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 603,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "11.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1780,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 181,
+                            "length": 34
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 225,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 242,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 271,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 310,
+                            "length": 20
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 340,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 359,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 448,
+                            "length": 52
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 502,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 588,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "12.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1808,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 201,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 227,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 246,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 277,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 320,
+                            "length": 24
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 354,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 376,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 462,
+                            "length": 65
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 529,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 616,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "13.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1808,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 15
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 202,
+                            "length": 22
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 234,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 255,
+                            "length": 20
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 296,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 334,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 362,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 379,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 465,
+                            "length": 62
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 529,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 616,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "14.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1795,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 201,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 227,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 244,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 277,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 318,
+                            "length": 23
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 351,
+                            "length": 4
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 366,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 452,
+                            "length": 62
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 516,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 603,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "15.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1790,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 159,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 198,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 226,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 251,
+                            "length": 6
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 278,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 315,
+                            "length": 20
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 345,
+                            "length": 5
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 361,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 447,
+                            "length": 62
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 511,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 598,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "16.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1830,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 159,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 202,
+                            "length": 21
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 233,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 251,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 284,
+                            "length": 15
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 326,
+                            "length": 17
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 353,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 371,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 459,
+                            "length": 53
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 514,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 600,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "17.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1808,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 159,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 198,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 226,
+                            "length": 15
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 252,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 282,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 321,
+                            "length": 17
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 348,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 372,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 460,
+                            "length": 67
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 529,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 616,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "18.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1804,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 161,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 198,
+                            "length": 24
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 232,
+                            "length": 13
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 256,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 287,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 326,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 354,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 372,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 459,
+                            "length": 64
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 525,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 612,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "19.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1814,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 9
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 160,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 199,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 225,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 246,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 277,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 316,
+                            "length": 22
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 348,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 369,
+                            "length": 14
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 461,
+                            "length": 72
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 535,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 622,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "location": "20.txt",
+            "language": "en-us",
+            "extractors": [
+                {
+                    "regionOffset": 0,
+                    "regionLength": 1775,
+                    "labels": [
+                        {
+                            "extractorName": "Date",
+                            "offset": 5,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "BorrowerName",
+                            "offset": 159,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerAddress",
+                            "offset": 196,
+                            "length": 18
+                        },
+                        {
+                            "extractorName": "BorrowerCity",
+                            "offset": 224,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "BorrowerState",
+                            "offset": 245,
+                            "length": 8
+                        },
+                        {
+                            "extractorName": "LenderName",
+                            "offset": 274,
+                            "length": 10
+                        },
+                        {
+                            "extractorName": "LenderAddress",
+                            "offset": 311,
+                            "length": 16
+                        },
+                        {
+                            "extractorName": "LenderCity",
+                            "offset": 337,
+                            "length": 7
+                        },
+                        {
+                            "extractorName": "LenderState",
+                            "offset": 355,
+                            "length": 12
+                        },
+                        {
+                            "extractorName": "LoanAmountWords",
+                            "offset": 445,
+                            "length": 49
+                        },
+                        {
+                            "extractorName": "LoanAmountNumbers",
+                            "offset": 496,
+                            "length": 11
+                        },
+                        {
+                            "extractorName": "Interest",
+                            "offset": 583,
+                            "length": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
