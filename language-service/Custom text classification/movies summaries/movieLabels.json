@@ -81,24 +81,6 @@
             ]
         },
         {
-            "location": "A_Woman_in_Flames.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
-            "location": "A_Zed_And_Two_Noughts.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Aaah_Belinda.txt",
             "language": "en-us",
             "classifiers": [
@@ -201,15 +183,6 @@
             ]
         },
         {
-            "location": "Anokha_Rishta.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Aparan.txt",
             "language": "en-us",
             "classifiers": [
@@ -222,7 +195,7 @@
             ]
         },
         {
-            "location": "Archie__To_Riverdale_and_Back_Again.txt",
+            "location": "Archie_To_Riverdale_and_Back_Again.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -399,15 +372,6 @@
             ]
         },
         {
-            "location": "C.H.U.D.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Cash.txt",
             "language": "en-us",
             "classifiers": [
@@ -416,15 +380,6 @@
                 },
                 {
                     "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Chandra_Mukhi.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
                 }
             ]
         },
@@ -570,18 +525,6 @@
             ]
         },
         {
-            "location": "Das_schreckliche_Mädchen.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                },
-                {
-                    "classifierName": "Comedy"
-                }
-            ]
-        },
-        {
             "location": "Deadly_Voyage.txt",
             "language": "en-us",
             "classifiers": [
@@ -597,34 +540,7 @@
             ]
         },
         {
-            "location": "Dhamarukam.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                },
-                {
-                    "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Dilliwala_Rajakumaran.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                },
-                {
-                    "classifierName": "Comedy"
-                },
-                {
-                    "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Don__The_Chase_Begins_Again.txt",
+            "location": "Don_The_Chase_Begins_Again.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -708,7 +624,7 @@
             ]
         },
         {
-            "location": "Dylan_Dog__Dead_of_Night.txt",
+            "location": "Dylan_Dog_Dead_of_Night.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -861,7 +777,7 @@
             ]
         },
         {
-            "location": "Get_Smart's_Bruce_&_Lloyd_Out_of_Control.txt",
+            "location": "Get_Smart's_Bruce_And_Lloyd_Out_of_Control.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -957,30 +873,6 @@
             ]
         },
         {
-            "location": "Hathyar__Face_to_Face_with_Reality.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                },
-                {
-                    "classifierName": "Thriller"
-                },
-                {
-                    "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Henry_V.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Henry's_Crime.txt",
             "language": "en-us",
             "classifiers": [
@@ -995,15 +887,6 @@
                 },
                 {
                     "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Hermanas.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
                 }
             ]
         },
@@ -1158,7 +1041,7 @@
             ]
         },
         {
-            "location": "K-19__The_Widowmaker.txt",
+            "location": "K-19_The_Widowmaker.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -1184,24 +1067,6 @@
                 },
                 {
                     "classifierName": "Comedy"
-                }
-            ]
-        },
-        {
-            "location": "Karayilekku_Oru_Kadal_Dooram.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
-            "location": "Kausthubham.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
                 }
             ]
         },
@@ -1248,7 +1113,7 @@
             ]
         },
         {
-            "location": "Kinjite__Forbidden_Subjects.txt",
+            "location": "Kinjite_Forbidden_Subjects.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -1362,24 +1227,6 @@
             ]
         },
         {
-            "location": "Lucía,_Lucía.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Mystery"
-                },
-                {
-                    "classifierName": "Drama"
-                },
-                {
-                    "classifierName": "Thriller"
-                },
-                {
-                    "classifierName": "Comedy"
-                }
-            ]
-        },
-        {
             "location": "Malibu_Express.txt",
             "language": "en-us",
             "classifiers": [
@@ -1425,15 +1272,6 @@
             ]
         },
         {
-            "location": "Mehndi_Waley_Hath.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Mengejar_Mas-Mas.txt",
             "language": "en-us",
             "classifiers": [
@@ -1458,15 +1296,6 @@
             ]
         },
         {
-            "location": "Minsaara_Kanavu.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Mon_Mane_Na.txt",
             "language": "en-us",
             "classifiers": [
@@ -1475,24 +1304,6 @@
                 },
                 {
                     "classifierName": "Comedy"
-                },
-                {
-                    "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Mortelle_randonnée.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Mystery"
-                },
-                {
-                    "classifierName": "Drama"
-                },
-                {
-                    "classifierName": "Thriller"
                 },
                 {
                     "classifierName": "Action"
@@ -1677,15 +1488,6 @@
             ]
         },
         {
-            "location": "Peddarayudu.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
-                }
-            ]
-        },
-        {
             "location": "Perrier's_Bounty.txt",
             "language": "en-us",
             "classifiers": [
@@ -1763,15 +1565,6 @@
                 },
                 {
                     "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "Raampur_Ka_Lakshman.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
                 }
             ]
         },
@@ -1902,7 +1695,7 @@
             ]
         },
         {
-            "location": "Sherlock_Holmes__A_Game_of_Shadows.txt",
+            "location": "Sherlock_Holmes_A_Game_of_Shadows.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -2232,7 +2025,7 @@
             ]
         },
         {
-            "location": "The_Golden_Spiders__A_Nero_Wolfe_Mystery.txt",
+            "location": "The_Golden_Spiders_A_Nero_Wolfe_Mystery.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -2253,7 +2046,7 @@
             ]
         },
         {
-            "location": "The_Hero__Love_Story_of_a_Spy.txt",
+            "location": "The_Hero_Love_Story_of_a_Spy.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -2454,7 +2247,7 @@
             ]
         },
         {
-            "location": "The_Moment_After_2__The_Awakening.txt",
+            "location": "The_Moment_After_2_The_Awakening.txt",
             "language": "en-us",
             "classifiers": [
                 {
@@ -2540,15 +2333,6 @@
                 },
                 {
                     "classifierName": "Action"
-                }
-            ]
-        },
-        {
-            "location": "The_World_of_Geisha.txt",
-            "language": "en-us",
-            "classifiers": [
-                {
-                    "classifierName": "Drama"
                 }
             ]
         },
@@ -2733,7 +2517,7 @@
             ]
         },
         {
-            "location": "Walking_Tall__Final_Chapter.txt",
+            "location": "Walking_Tall_Final_Chapter.txt",
             "language": "en-us",
             "classifiers": [
                 {
