@@ -1,19 +1,19 @@
-Date 6/29/2018
+Date 6/28/2019
+
 This is a Loan agreement between the two individuals mentioned below in the parties section of the agreement.
 
 I. Parties of agreement
 
-- Parker McLean with a mailing address of 9876 Fusce Rd, City of Frederick, State of Nebraska, (the "Borrower")
-- Dylan Williams with a mailing address of 6789 May Street, City of Winchester, State of Kentucky (the "Lender")
+- William Kirby with a mailing address of 4433 Oakmound Road, City of Burr Ridge, State of Illinois (the "Borrower")
+- Quinn Anderson with a mailing address of 458 Frank Avenue, City of Crafton, State of Pennsylvania (the "Lender")
 
 II. Amount
-The loan amount given by lender to borrower is six hundred twenty-three thousand four hundred sixty-three Dollars ($623,463.00) ("The Note")
+The loan amount given by lender to borrower is seven hundred twenty thousand sixty-seven Dollars ($720,067.00) ("The Note")
 
 III. Interest
-The Note shall bear interest five percent (5%) compounded annually.
+The Note shall bear interest five percent (4%) compounded annually.
 
 IV. Payment
-
 The amount mentioned in this agreement (the "Note"), including the principal and any accrued interest, is
 
 V. Payment Terms
