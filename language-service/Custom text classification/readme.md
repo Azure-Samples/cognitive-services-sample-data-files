@@ -9,7 +9,7 @@ This is a sample dataset adapted from [Web of Science](https://data.mendeley.com
 Dataset from Web of scince, CC BY 4.0 (https://creativecommons.org/licenses/by-sa/3.0/us/legalcode), modified by Microsoft
 
 
-## Multilple label classification - Movie Summary
+## Multiple label classification - Movie Summary
 
 This is a sample dataset adapted from the CMU Movie Summary public dataset. This was prepared by Microsoft Azure Language Services product team to prepare this dataset to be used as a sample for getting started with [Custom text classification](https://aka.ms/ctc-docs). This sample dataset consists of 210 files  each of them is a movie summary. Each movie can be classified into one or more of the following classes: "Mystery", "Drama", "Thriller", "Comedy", "Action".
 
