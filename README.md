@@ -25,9 +25,11 @@ These sample files are used to build models, update models, run tests, and impor
 | [Images](./ComputerVision/Images) | Sample images for Computer Vision SDK and Rest API quickstarts. |
 | [Spatial analysis](./ComputerVision/spatial-analysis) | Sample deployment manifest for spatial analysis container. |
 
-## [Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview)
+## [Language Service](https://docs.microsoft.com/azure/cognitive-services/language-service/overview)
 
 |Type of file|Purpose|
 |--|--|
 | [Flow diagrams](./TextAnalytics/flow-diagrams) | Example flow diagrams for using Power Automate with Text Analytics. |
 | [Sample data](./TextAnalytics/sample-data) | Example data files for Text Analytics tutorials. |
+| [Movie summaries](./language-service/Custom%20text%20classification/movies%20summaries) | Example data files for the [custom text classification quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/custom-classification/quickstart) |
+| [Example loan agreements](./language-service/Custom%20NER/loan%20agreements) | Example data files for the [custom NER quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/custom-named-entity-recognition/quickstart) |
