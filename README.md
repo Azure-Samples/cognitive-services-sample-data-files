@@ -31,5 +31,7 @@ These sample files are used to build models, update models, run tests, and impor
 |--|--|
 | [Flow diagrams](./TextAnalytics/flow-diagrams) | Example flow diagrams for using Power Automate with Text Analytics. |
 | [Sample data](./TextAnalytics/sample-data) | Example data files for Text Analytics tutorials. |
+| [Email app](./language-service/CLU/EmailAPP) | Example data files for the [custom text classification quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/conversational-language-understanding/quickstart) |
 | [Movie summaries](./language-service/Custom%20text%20classification/movies%20summaries) | Example data files for the [custom text classification quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/custom-classification/quickstart) |
+| [Web of Science](./language-service/Custom%20text%20classification/webofscience) | Example data files for the [custom text classification quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/custom-classification/quickstart) |
 | [Example loan agreements](./language-service/Custom%20NER/loan%20agreements) | Example data files for the [custom NER quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/custom-named-entity-recognition/quickstart) |
