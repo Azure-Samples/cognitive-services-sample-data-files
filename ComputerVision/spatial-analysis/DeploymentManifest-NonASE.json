@@ -28,12 +28,6 @@
                             "EULA": {
                                 "value": "accept"
                             },
-                            "ARCHON_GRAPH_READY_TIMEOUT": {
-                                "value": "600"
-                            },
-                            "ORT_TENSORRT_ENGINE_CACHE_ENABLE": {
-                                "value": "0"
-                            },
                             "BILLING":{
                                 "value": "<Use endpoint from Computer Vision Azure resource>"
                             },
