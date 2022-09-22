@@ -192,7 +192,7 @@
                                     "VIDEO_URL": "<Replace RTSP URL here>",
                                     "VIDEO_SOURCE_ID": "personCountCamera",
                                     "VIDEO_IS_LIVE": true,
-                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}"
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"count\", \"config\":{\"trigger\": \"event\", \"focus\": \"footprint\"}}]}]}"
                                 }
                             },
                             "personDistanceInstance1": {
@@ -205,7 +205,7 @@
                                     "VIDEO_URL": "<Replace RTSP URL here>",
                                     "VIDEO_SOURCE_ID": "personDistanceCamera",
                                     "VIDEO_IS_LIVE": true,
-                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0, \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}" }
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\": \"distance_zone\", \"polygon\": [[0.3,0.3], [0.3,0.9], [0.6,0.9], [0.6,0.3], [0.3,0.3]],\"events\":[{\"type\": \"persondistance\",\"config\":{\"trigger\": \"event\",\"output_frequency\":1,\"minimum_distance_threshold\":6.0,\"maximum_distance_threshold\":35.0, \"focus\": \"footprint\"}}]}]}" }
                             }
                         }
                     },
@@ -244,7 +244,7 @@
                                     "VIDEO_URL": "<Replace RTSP URL here>",
                                     "VIDEO_SOURCE_ID": "polygonCrossingCamera",
                                     "VIDEO_IS_LIVE": true,
-                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"zonedwelltime\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}, {\"type\":\"zonecrossing\", \"config\":{\"trigger\": \"event\", \"threshold\":48.0, \"focus\": \"footprint\"}}]}]}"
+                                    "SPACEANALYTICS_CONFIG": "{\"zones\":[{\"name\":\"queue\",\"polygon\":[[0.3,0.3],[0.3,0.9],[0.6,0.9],[0.6,0.3],[0.3,0.3]], \"events\": [{\"type\":\"zonedwelltime\", \"config\":{\"trigger\": \"event\", \"focus\": \"footprint\"}}, {\"type\":\"zonecrossing\", \"config\":{\"trigger\": \"event\", \"focus\": \"footprint\"}}]}]}"
                                 }
                             }
                         }
@@ -284,7 +284,7 @@
                                     "VIDEO_URL": "<Replace RTSP URL here>",
                                     "VIDEO_SOURCE_ID": "lineCrossingCamera",
                                     "VIDEO_IS_LIVE": true,
-                                    "SPACEANALYTICS_CONFIG": "{\"lines\":[{\"name\":\"door\",\"line\":{\"start\":{\"x\":0,\"y\":0.5},\"end\":{\"x\":1,\"y\":0.5}},\"events\": [{\"type\":\"linecrossing\", \"config\":{\"trigger\": \"event\", \"threshold\":16.0, \"focus\": \"footprint\"}}]}]}"
+                                    "SPACEANALYTICS_CONFIG": "{\"lines\":[{\"name\":\"door\",\"line\":{\"start\":{\"x\":0,\"y\":0.5},\"end\":{\"x\":1,\"y\":0.5}},\"events\": [{\"type\":\"linecrossing\", \"config\":{\"trigger\": \"event\", \"focus\": \"footprint\"}}]}]}"
                                 }
                             }
                         }
