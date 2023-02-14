@@ -1,5 +1,5 @@
 {
-    "projectFileVersion": "2022-10-01-preview",
+    "projectFileVersion": "2022-05-01",
     "stringIndexType": "Utf16CodeUnit",
     "metadata": {
         "projectKind": "Conversation",
@@ -4308,7 +4308,7 @@
                 ]
             },
             {
-                "text": "respond i'm sick i can't do it",
+                "text": "respond i ' m sick i can ' t do it",
                 "language": "en-us",
                 "intent": "Reply",
                 "entities": [
