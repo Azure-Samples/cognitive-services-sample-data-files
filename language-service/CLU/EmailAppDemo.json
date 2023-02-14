@@ -1346,13 +1346,13 @@
                 ]
             },
             {
-                "text": "don ' t read",
+                "text": "don't read",
                 "language": "en-us",
                 "intent": "Cancel",
                 "entities": []
             },
             {
-                "text": "don ' t read it",
+                "text": "don't read it",
                 "language": "en-us",
                 "intent": "Cancel",
                 "entities": []
@@ -4308,7 +4308,7 @@
                 ]
             },
             {
-                "text": "respond i ' m sick i can ' t do it",
+                "text": "respond i'm sick i can't do it",
                 "language": "en-us",
                 "intent": "Reply",
                 "entities": [
