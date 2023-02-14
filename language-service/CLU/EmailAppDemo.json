@@ -407,7 +407,7 @@
                 "entities": []
             },
             {
-                "text": "add more to roy 's email",
+                "text": "add more to roy's email",
                 "language": "en-us",
                 "intent": "AddMore",
                 "entities": [
@@ -1358,7 +1358,7 @@
                 "entities": []
             },
             {
-                "text": "don 't send the email",
+                "text": "don't send the email",
                 "language": "en-us",
                 "intent": "Cancel",
                 "entities": []
