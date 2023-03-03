@@ -1,0 +1,5401 @@
+{
+    "projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "HomeAutomationAppDemo",
+        "multilingual": false,
+        "description": "",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "HomeAutomation.TurnOff"
+            },
+            {
+                "category": "HomeAutomation.TurnOn"
+            },
+            {
+                "category": "None"
+            }
+        ],
+        "entities": [
+            {
+                "category": "HomeAutomation.Location",
+                "compositionSetting": "combineComponents"
+            },
+            {
+                "category": "HomeAutomation.DeviceName",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "lamp 1",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "lamps 1",
+                                        "lamp 1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "living room light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "living room light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "kitchen light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "kitchen light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "christmas tree light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "christmas tree light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "peppercorn lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "peppercorn lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ceiling lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ceiling lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "living room lamp 1",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "living room lamp 1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "night sleep light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "night sleep light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "fish pond light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "fish pond light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "den light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "den light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "levis light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "levis light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "light 31",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "light 31"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "blue lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "blue lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "christmas lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "christmas lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "tulip light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "tulip lights",
+                                        "tulip light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "evening lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "evening lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "security system",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "security system"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "penelope's light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "penelope's light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "siena's lamp",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "siena's lamp"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dining lamp",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dining lamp"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "reading living room light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "reading living room light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "sophia's light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "sophia's light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "matthew lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "matthew lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "steeple led bulb",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "steeple led bulb"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "great light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "great light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "tulips light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "tulips light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "hue light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "hue light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "lcd light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "lcd light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "pot light 2",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "pot light 2"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "hue white lamp 3",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "hue white lamp 3"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "david thermo",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "david thermo"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "main light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "main lamp",
+                                        "main light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "living room lamp 3",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "living room lamp 3"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "hue lamp two",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "hue lamp two"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "kuelap light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "kuelap light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "hue white lamp 1",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "hue white lamp 1"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "hallway lamp three",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "hallway lamp three"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "david's light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "david's light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "green light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "green light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "red light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "red light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "brake lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "brake lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dream lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dream lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "weekend lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "weekend lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "lightstrip 3",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "lightstrip 3"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ceiling light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ceiling light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "bronze lamp",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "bronze lamp"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "thermostat three",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "thermostat three"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "sink light two",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "sink light two"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "favorites lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "favorites lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "tv light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "tv light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "biube light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "biube light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "couch light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "couch light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "surface pro three",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "surface pro four",
+                                        "surface pro three"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "yellow lights",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "yellow light",
+                                        "yellow lamp",
+                                        "yellow lamps",
+                                        "yellow lights"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "night light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "night light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dining thermostat",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dining thermostat"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "category": "HomeAutomation.DeviceType",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "ac",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "air conditioner",
+                                        "a/c",
+                                        "a / c",
+                                        "air conditioning",
+                                        "air condition",
+                                        "ac"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "coffee maker",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "coffee pot",
+                                        "coffee machine",
+                                        "coffee maker"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "coffeemaker",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "coffeemaker"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dish washer",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dish washing machine",
+                                        "dish-washing machine",
+                                        "dish washer"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dishwasher",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dishwasher"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dog feeder",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "feeder",
+                                        "dog feeder"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "dvd player",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dvd players",
+                                        "dvd player"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "fan",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "electric fan",
+                                        "fans",
+                                        "ceiling fan",
+                                        "light-fan",
+                                        "fan"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "floor mopping robot",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "floor mopping robot"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ice maker",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ice maker"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "lamp",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "lamps",
+                                        "lamp"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "light",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "lights",
+                                        "top light",
+                                        "top lights",
+                                        "bottom light",
+                                        "pendant light",
+                                        "overhead light",
+                                        "lighting",
+                                        "spotlights",
+                                        "pendant lights",
+                                        "nightlight",
+                                        "light"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "outlet",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "outlets",
+                                        "switches",
+                                        "outlet"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "radio",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "radio"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "refrigerator",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "refrigerator"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "sensor",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "sensor"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "thermostat",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "thermostat"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "tv",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "television",
+                                        "tv"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "washing machine",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "washer",
+                                        "washing machine"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "wifi",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "wifi router",
+                                        "router",
+                                        "wifi"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "led bulb",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "led bulb"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "oven",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "toaster",
+                                        "oven"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "electric water heater",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "electric water heater"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "microwave oven",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "microwave oven"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "bread maker",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "bread maker"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "speaker",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "speaker"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "fridge",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "fridge"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "humidifier",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "humidifier"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "computer",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "computer"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "vacuum cleaner",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "vacuum cleaner"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "xbox",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "xbox"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "hair dryer",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "dryer",
+                                        "hair dryer"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "telephone",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "telephone"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "remote",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "remote"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "media",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "media console",
+                                        "movie",
+                                        "media"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "camera",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "camera"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "ipad",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "ipod",
+                                        "ipad"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "sink",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "sink"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "stove",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "stove"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "alarms",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "alarm",
+                                        "alarms"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "showers",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "shower",
+                                        "showers"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "sprinkler",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "sprinklers",
+                                        "sprinkler"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "cars",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "car",
+                                        "cars"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "listKey": "heaters",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "heater",
+                                        "heaters"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "utterances": [
+            {
+                "text": "adjust family room lights to 15 %",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "all lights on for 1 hour",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "are bedroom lights off",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "are living room lights off",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "are my crawl space lamps on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "are my lights off in the closet",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 25,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "are my playroom lights on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "are the back entryway lights on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "are the lights off in the kitchen",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 26,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "are the lights on in the library",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 25,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "are the lights on in the master bathroom",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 25,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "are the living area lights on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "are you able to turn off my light switches",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "brighten family room lamp by 100",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "brighten garage",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "brighten kitchen entry light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "brighten living room lamps by ten",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "brighten living room lamps to 50",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "brighten room lights to 45%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "brighten the bar lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "brighten the bar lights to 10",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "brighten the kitchen dining lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "brighten the kitchen lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "brighten the kitchen lights to 15",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "brighten the living room lamps to 15",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "brighten the living room lights to 15",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "can you please turn off lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "can you please turn on my lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you start the coffee maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you turn my lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you turn my tv off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "can you turn off the lights please",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "can you turn off the tv",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "can you turn on my coffeemaker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you turn on my coffeemaker at 6 am",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you turn on the dishwasher",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you turn on the light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "can you turn on the lights in bathroom",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 30,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "change the study to bright",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "check the status of my house",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "check the temperature in the kitchen",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 29,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "check the temperature in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 29,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "decrease the home temperature by 88 degrees",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "dim bedroom by half",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim bedroom lamp by 20",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim bedroom lamp by 3",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim bedroom lamp by 8",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim bedroom lights to 50",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim family room lamps",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim family room lights to 15%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim front light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "dim kitchen entry to 30 %",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "dim kitchen light to 50%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim kitchen lights by 25",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim kitchen table lamp",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "dim kitchen to 50%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim living room lamps to 35",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim living room light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim living room light by 50%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim living room to 50%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim media room light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "dim my bathroom light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "dim my outside lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim room lights to 78%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "dim the bar lights to darker",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "dim the bar lights to red",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "dim the bed lights by 10",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "dim the bedroom lamp",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim the family room light to 50 %",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim the kitchen lights to 10",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "dim the lights in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim the living room floor lamp to 12%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 17
+                    }
+                ]
+            },
+            {
+                "text": "dim the living room to 50%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "dim the office light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "dim the stairway pendant light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 16
+                    }
+                ]
+            },
+            {
+                "text": "dim the stairway pendant light by 70",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "dim the table lights by 10",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "dim the table lights to darker",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "dim the table lights to red",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "disable lightstrip 3",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "for hub front porch light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "home switch off the fan",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 0,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "how bright is the master bedroom light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "how cold is it in the family room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "how cold is it in the porch",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "how cold is it inside",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 15,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "how hot is it inside",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "i need the bedroom lights on please",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "i need the bread maker turned off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "i need the lights in the dining room turned on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 25,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "i need the lights on at 9 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "i need you to start the dishwasher",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "i want to know the status of kitchen's light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 29,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "increase the brightness of bedroom's lamp by half",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 27,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "is my bar thermostat on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 6,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "is my city center light on or off",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 6,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "is the a/c on in my house",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 20,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "is the ac in the balcony on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 17,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "is the bathroom fan on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "is the fan in the garage running",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "is the fan on in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 21,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "is the fan on in the master bedroom",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 21,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "is the front entry switched on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "is the front yard a/c on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "is the lamp in the lounge on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "is the light on in the dining room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "is the light on in the kitchen",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "is the living room light on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "is the nook lamp on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "is the patio a/c on",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "kitchen overhead off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 0,
+                        "length": 16
+                    }
+                ]
+            },
+            {
+                "text": "kitchen sink off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "lights off the table",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 15,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "listen up turn off the air condition",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "lower the brightness in study",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 24,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "lower the kitchen light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "make bedroom light brighter",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "make bedroom lights brighter",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "make dining room lights darker",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "make everything turned on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "make hue white lamp 3 turned on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "make it colder in here",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "make it cooler outside",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 15,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "make it warmer in the home office",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "make it warmer in the pass through",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 12
+                    }
+                ]
+            },
+            {
+                "text": "make living room's every light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "make my coffee maker off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "make my coffee maker on for 5 minutes",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "make my house cooler",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "make my kitchen lights brighter",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "make my living room light brighter",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "make my study a little warmer",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "make my study's temperature higher",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "make my whole house colder",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "make sure stove is off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "make sure the coffee maker is turned on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "make sure the oven is on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "make the ac in living room set to refrigeration mode",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 15,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "make the bread maker off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "make the bread maker on for 10 minutes",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "make the kitchen warmer",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "make the living area warmer",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "make the room cooler",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "make the temperature in dining room higher",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 24,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "open pot light 2",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "please make it five degrees warmer in here",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 38,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "please stop the bread maker for me",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "please switch off the living room tv",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "please turn off the kitchen lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 20,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "please turn off the light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "please turn off the lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "please turn off the living room lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 20,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "please turn off the tv",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "please turn on kitchen light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 15,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "please turn on master bathroom lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 15,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "please turn on my coffeemaker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "please turn on my kitchen lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "please turn on the coffeemaker to 6 am",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "please turn on the dishwasher",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "please turn on the kitchen light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "please turn on tv in the kitchen",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 25,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "please turn the camera on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "please turn the living room lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 16,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "please turn the second kitchen outlets on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "please turn the yellow lights on till 9:30",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "raise the brightness in study",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 24,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "set ac soft downstairs",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "set bedroom to 20 kelvin",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "set dining temperature at 73 degrees",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "set lights off in family",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "set lights off in living room",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "set lights off in the main room",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 9
+                    }
+                ]
+            },
+            {
+                "text": "set lights on at 11 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "set lights to dusk in kitchen",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "set lights to low light in master bedroom",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 27,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "set living room lights to dusk",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "set living room lights to relax",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "set living room to 18 centigrade",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "set living room to 25 degrees",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "set my couch to 78",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "set office lamp brightness to 21 percent",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "set office lights brightness 23%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "set study light at 57%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "set study room temperature at 74",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "set the bedroom light to 79 degrees",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "set the light's location in living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 28,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "set the temperature of my home living room thermostat to 55 degrees",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 26,
+                        "length": 16
+                    }
+                ]
+            },
+            {
+                "text": "set upstairs lights normal",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "shut down surface pro four",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "shut down the computer",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "shut down the first lamp",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "shut down the oven",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "shut down the radio",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "shut off tv",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "start coffee maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start coffee pot",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start my car",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start oven",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start running the microwave oven",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start running the oven",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start sink light two",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the coffee maker please",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the computer",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the dryer",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the dryer over at three hundred fifty degrees",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the dvd player",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the ice maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start the movie",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start up my coffee machine",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start up my coffee maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "start up the tv in living room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "stop bar lamp",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "stop running the microwave oven",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "stop the bread maker",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "stop the lamp",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "stop thermostat three",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "switch bedroom lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 7,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "switch my lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "switch my living room light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "switch my study light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "switch off kitchen lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "switch off main light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "switch off my bedroom light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "switch off the light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "switch off the lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "switch off the second lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "switch on living room ac",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "switch on the lamp in nancy's bedroom",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "switch on the speaker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "switch on xbox for 2 hours",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "tell me the color of study's lamp",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 21,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "the outdoors lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 4,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "the vacuum cleaner off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "the vacuum cleaner on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "trigger office lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn basement stairs light up",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "turn bedroom light up",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn david 's light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn dining room light down",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn dining room light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn dining room light up",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn down great room lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn down living room light at 9 am",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn down my bathroom light by 50 percent",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "turn down study light 135%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 10,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "turn down the basement lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "turn down the city center thermostat",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn down the lamp in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 26,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn down the light in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 27,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn entry lamp off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "turn fireplace back lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "turn floor lamp up",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "turn gameroom lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "turn hallway lamp three on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn hub basement light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 12
+                    }
+                ]
+            },
+            {
+                "text": "turn hub bedroom lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn hub couch light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 9
+                    }
+                ]
+            },
+            {
+                "text": "turn hub front light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 9
+                    }
+                ]
+            },
+            {
+                "text": "turn hub front porch light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "turn hub front porch lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "turn hub kitchen on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn hub living room light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "turn ipad on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn kitchen lights to white",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn kitchen west lamp onto 50 %",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 12
+                    }
+                ]
+            },
+            {
+                "text": "turn lamp off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn lights off in bedroom",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn lights off please",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn lights on to 9 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn living room lamp 3 off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn living room light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn my downstairs light up",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn my front door light down",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn my front door light up",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn my kuelap light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn my lamp to red",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn my living room light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn my study room light down",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn night light on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn off a lamp",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off a/c",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off all home light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn off all lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off all my lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off all the lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off all the lights in the dining room",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 31,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off all the office lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 17,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn off david 's light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off dining lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn off family room lamp please",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off family room lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off fan light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off front door light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn off front porch lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off garage light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn off great light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off guest patio lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off hue lamp two",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off in the pendant lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off ipod",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off joe 's room lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off kitchen overhead light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn off lamp at 3 pm",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off light 31",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off lights in house",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "turn off lights in joe 's room",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off lights in the master",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn off living room lamp 1",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off matthew lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off media console",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off my great room light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn off my light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off my lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off my outlets",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off my room lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn off my tulip light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off outdoor lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn off outside front lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "turn off oven",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off penelope 's light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off radio",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off steeple led bulb",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off table lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "turn off the ac at 11 o'clock",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the ac at five fourty",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the ac in the living room at 11 o'clock",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off the air conditioner to 10 pm",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the christmas lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the coffee maker",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the coffee maker at 10 am",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the couch light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the den light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the dvd player",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the family room lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off the first light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the humidifier",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the light at 11 pm",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the light for 50 minutes",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the light when 10 pm",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the lights in office",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn off the lights in the living room",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 27,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn off the lights in the livingroom",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 27,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn off the lights please",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the lights when i go to bed",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the livingroom lamp",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn off the night sleep light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the outlets for 2 hours",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the outside lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn off the peppercorn lights",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the reading living room light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the remote",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the toaster",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the tv",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the tv at 5 o'clock",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the tv at nine o'clock",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the tv when 3:30",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off the upstairs hallway night light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 13,
+                        "length": 16
+                    }
+                ]
+            },
+            {
+                "text": "turn off the vacuum cleaner when 9am",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off tv",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn off zac 's bedroom light",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "turn on alarm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on all lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on all lights in master bedroom room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 19
+                    }
+                ]
+            },
+            {
+                "text": "turn on all master bedroom lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "turn on all my lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on basement lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "turn on bedroom light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on bedside lamp to 20 percent",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on camera",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on ceiling lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on coffee maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on coffee pot",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on deck lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn on dining lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on evening lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on family room fan",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on family room lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on fan",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on fish pond light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on florida room lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 12
+                    }
+                ]
+            },
+            {
+                "text": "turn on hallway light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on kitchen table light to 50%",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "turn on laundry room light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 12
+                    }
+                ]
+            },
+            {
+                "text": "turn on levis light at 50%",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on light in hallway",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 17,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on light in living room to 6 am",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 17,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on lights at bathroom",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "turn on lights in bedroom at 10 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on lights in dining room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on lights in master bedroom room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 18,
+                        "length": 19
+                    }
+                ]
+            },
+            {
+                "text": "turn on living room floor lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 17
+                    }
+                ]
+            },
+            {
+                "text": "turn on living room lamp 1 to 25%",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on living room lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on living room overhead light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on master bedroom lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 14
+                    }
+                ]
+            },
+            {
+                "text": "turn on my coffee maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on my coffeemaker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on my computer",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on my garage light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn on my lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on my thermostat",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on my tv in living room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 17,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on radio",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on scene kitchen lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "turn on security system",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on shower",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on siena ' s lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on sprinklers",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the a/c at 5 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the ac at 8:30",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the ac for 45 minutes",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the ac till 9:20",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the ac to 26 degrees",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the air conditioner",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the bedroom light on at six o clock",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on the christmas tree light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the coffee maker",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the dining room light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on the dishwasher",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the dishwasher at 30%",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the dog feeder",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the fan in family room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on the front outside lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "turn on the guest patio night light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on the indoors light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the lamp for 1 hour",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the lamp in my room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn on the light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the light for 5 minutes",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the light to 11 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the lights in kitchen at 10 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 22,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on the lights in the bedroom",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 26,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn on the lights in the guest room",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 26,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn on the lights masterbedroom at 10%",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 19,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "turn on the living room ceiling fan",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on the living room fan from 9 to 10",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn on the living room table lamp",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 17
+                    }
+                ]
+            },
+            {
+                "text": "turn on the nightlight",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the radio at 7:30",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the sink lights",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the third ac",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the tv for 2 hours",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on the upstairs hallway light",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 12,
+                        "length": 16
+                    }
+                ]
+            },
+            {
+                "text": "turn on tv",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn on tv room lamp east",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 7
+                    },
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 21,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn on xbox",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn overhead light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn sink light down",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn sophia 's light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn table lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "turn the bedroom lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "turn the blue lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the bread maker off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the camera off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the ice maker off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the lamp off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the light off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn the lights on at 5",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn the masterbedroom light to 50% at 5",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 13
+                    }
+                ]
+            },
+            {
+                "text": "turn the outdoors lights on",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "turn the oven off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the room light up to 29 %",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn the room up 100 %",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 9,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "turn the second outlets off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": []
+            },
+            {
+                "text": "turn the third light on from 9 pm to 10 pm",
+                "intent": "HomeAutomation.TurnOn",
+                "entities": []
+            },
+            {
+                "text": "turn up livingroom light 165%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn up master bathroom lights",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 15
+                    }
+                ]
+            },
+            {
+                "text": "turn up office light",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "turn up study room light 200%",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 8,
+                        "length": 10
+                    }
+                ]
+            },
+            {
+                "text": "turn up the fan in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 23,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn up the lights in the living room",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 26,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn up the temperature in my living room by 5 degrees",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 30,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "turn yard lights off",
+                "intent": "HomeAutomation.TurnOff",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 5,
+                        "length": 4
+                    }
+                ]
+            },
+            {
+                "text": "what 's my entertainment center ac set to",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 20
+                    }
+                ]
+            },
+            {
+                "text": "what 's my garage lamp set to",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 6
+                    }
+                ]
+            },
+            {
+                "text": "what 's the temperature in my house",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 30,
+                        "length": 5
+                    }
+                ]
+            },
+            {
+                "text": "what 's the temperature in the bar",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 31,
+                        "length": 3
+                    }
+                ]
+            },
+            {
+                "text": "what does the bedroom thermostat read",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "what does the outdoor thermostat read",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 14,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "what is my playroom switch set to",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 11,
+                        "length": 8
+                    }
+                ]
+            },
+            {
+                "text": "what is the brightness of the living room lamp",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 30,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "what is the temperature in my bedroom",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 30,
+                        "length": 7
+                    }
+                ]
+            },
+            {
+                "text": "what's the volume level of the tv in my bedroom",
+                "intent": "None",
+                "entities": [
+                    {
+                        "category": "HomeAutomation.Location",
+                        "offset": 40,
+                        "length": 7
+                    }
+                ]
+            }
+        ]
+    }
+}
