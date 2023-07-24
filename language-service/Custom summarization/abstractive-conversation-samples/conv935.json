@@ -1,0 +1,371 @@
+{
+    "modality": "text",
+    "id": "conversation935",
+    "language": "en",
+    "conversationItems": [
+        {
+            "text": "Hello",
+            "modality": "text",
+            "id": "1",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Welcome, Mr. Smith, how are you today?",
+            "modality": "text",
+            "id": "2",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Welcome, I\u2019m fine.",
+            "modality": "text",
+            "id": "3",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "With you today is John from the complaints and suggestions department, how can I help you today, Mr. Smith?",
+            "modality": "text",
+            "id": "4",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "I have a big problem with the product I bought from your site this week",
+            "modality": "text",
+            "id": "5",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Moments with me Mr. Smith, I will review your request now",
+            "modality": "text",
+            "id": "6",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Ok",
+            "modality": "text",
+            "id": "7",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Your request number 538879 was on Wednesday correct Mr. Smith?",
+            "modality": "text",
+            "id": "8",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Yup",
+            "modality": "text",
+            "id": "9",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Ok, Mr. Smith can you explain to me what is the problem exactly?",
+            "modality": "text",
+            "id": "10",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "I didn\u2019t like the product and I didn\u2019t get it as the same picture on the company website, you are liars!",
+            "modality": "text",
+            "id": "11",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I apologize very much to you Mr. Smith but on our website, we put pictures of real products only, and the proof is the positive comments and evaluations from all our customers in Saudi Arabia",
+            "modality": "text",
+            "id": "12",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "I don\u2019t believe it; I believe my eyes who see the product",
+            "modality": "text",
+            "id": "13",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Sorry, Mr. Smith I\u2019m not accusing you of lying at all, and I will solve this problem immediately, can you please explain to me in detail how the product is different from the picture?",
+            "modality": "text",
+            "id": "14",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "In the picture, the size of the product is bigger than what I received",
+            "modality": "text",
+            "id": "15",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Ok, Mr. Smith if you opened our website, you would find the sizes written in detail in the product description, if you can look at it now while you are with me on the line?",
+            "modality": "text",
+            "id": "16",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Ok",
+            "modality": "text",
+            "id": "17",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Take your time, Mr. Smith",
+            "modality": "text",
+            "id": "18",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "it is Written but the product in the picture is very big than the size that is written in the description?",
+            "modality": "text",
+            "id": "19",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "This is because of the angle of photography Mr. Smith because we in the company must show all the details of the product to the customer, so the pictures are a little close to the product to show all the details to the customers, and we provide the product with a specific and clear description of materials and sizes and advantages and everything so that the customer knows the product that he will buy, are you still with me Mr. Smith?",
+            "modality": "text",
+            "id": "20",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "yes",
+            "modality": "text",
+            "id": "21",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Are there any other differences than the size Mr. Smith?",
+            "modality": "text",
+            "id": "22",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "I don\u2019t know how to use this product; I mean the way I used it and it didn\u2019t work",
+            "modality": "text",
+            "id": "23",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "There is no problem Mr. Smith I will send you an accurate description of the method of use and will follow up with you one of the Agents in the department of inquiries to clarify all the details and information about the product",
+            "modality": "text",
+            "id": "24",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Pretty good!",
+            "modality": "text",
+            "id": "25",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Do you have any other complaints, Mr. Smith?",
+            "modality": "text",
+            "id": "26",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "I wanted to complain to the shipping representative who got me this product",
+            "modality": "text",
+            "id": "27",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Moments with me, Mr. Smith now I will determine who is responsible for your shipping operation",
+            "modality": "text",
+            "id": "28",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "OK I am waiting for you",
+            "modality": "text",
+            "id": "29",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I apologize for being late, moments Mr. Smith",
+            "modality": "text",
+            "id": "30",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Ok",
+            "modality": "text",
+            "id": "31",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "are you still with me Mr. Smith ?",
+            "modality": "text",
+            "id": "32",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Go ahead I am with you",
+            "modality": "text",
+            "id": "33",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Sorry again for being late Mr. Smith, now we will review with you some data about the shipment, ok?",
+            "modality": "text",
+            "id": "34",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Ok",
+            "modality": "text",
+            "id": "35",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "If you can check the delivery information on the bill!",
+            "modality": "text",
+            "id": "36",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "One minute",
+            "modality": "text",
+            "id": "37",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Ok",
+            "modality": "text",
+            "id": "38",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "ok I am with you now",
+            "modality": "text",
+            "id": "39",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "All right, the shipment was 6:00 p.m. on Wednesday, is it right?",
+            "modality": "text",
+            "id": "40",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "The product was supposed to be delivered to me at 6 p.m., but I was surprised that the agent was two hours late!!!",
+            "modality": "text",
+            "id": "41",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Ok Mr. Smith, can you tell me the number of the representative on the bill?",
+            "modality": "text",
+            "id": "42",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Moments\u2026 Agent number is (95520)",
+            "modality": "text",
+            "id": "43",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "OK Mr. Smith, can you tell me now about the whole problem, go-ahead",
+            "modality": "text",
+            "id": "44",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "The representative was two hours behind schedule, and when I received the shipment was untidy and once humiliated, and unacceptably spoke to me!",
+            "modality": "text",
+            "id": "45",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I apologize to you very much Mr. Smith, and the necessary work will be done, and strict measures will be taken with the representative immediately, and an apology from our company to you we will offer you a 50% discount on any product you want from our site and shipping the product is free",
+            "modality": "text",
+            "id": "46",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "nice thank you John",
+            "modality": "text",
+            "id": "47",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I\u2019m always at your service, Mr. Smith, do you have any complaints or other inquiries?",
+            "modality": "text",
+            "id": "48",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "no",
+            "modality": "text",
+            "id": "49",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Ok, Mr. Smith a customer service representative will contact you from the department of inquiries about the method of using the product as soon as possible, I wish you a happy day",
+            "modality": "text",
+            "id": "50",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "thanks a lot",
+            "modality": "text",
+            "id": "51",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I am pleased to serve you, thank you for contacting the customer service of the company",
+            "modality": "text",
+            "id": "52",
+            "participantId": "Agent",
+            "role": "Agent"
+        }
+    ]
+}
