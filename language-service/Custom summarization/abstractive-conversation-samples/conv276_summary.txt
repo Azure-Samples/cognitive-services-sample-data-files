@@ -1,0 +1,1 @@
+The customer tried to set up wifi connection for Smart Brew 300 espresso machine, but it didn't work. The agent suggested the customer push the wifi connection button, hold for 3 seconds, and let her know if the power light is slowly blinking. The customer then checked in their Contoso Coffee app, but nothing happened.

@@ -1,0 +1,56 @@
+{
+    "modality": "text",
+    "id": "conversation236",
+    "language": "en",
+    "conversationItems": [
+        {
+            "text": "Hello, you're chatting with Rene. How may I help you?",
+            "modality": "text",
+            "id": "1",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Hi, I tried to set up wifi connection for Smart Brew 300 espresso machine, but it didn't work.",
+            "modality": "text",
+            "id": "2",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I\u2019m sorry to hear that. Let\u2019s see what we can do to fix this issue. Could you please try the following steps for me? First, could you push the wifi connection button, hold for 3 seconds, then let me know if the power light is slowly blinking on and off every second?",
+            "modality": "text",
+            "id": "3",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "Yes, I pushed the wifi connection button, and now the power light is slowly blinking.",
+            "modality": "text",
+            "id": "4",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "Great. Thank you! Now, please check in your Contoso Coffee app. Does it prompt to ask you to connect with the machine?",
+            "modality": "text",
+            "id": "5",
+            "participantId": "Agent",
+            "role": "Agent"
+        },
+        {
+            "text": "No. Nothing happened.",
+            "modality": "text",
+            "id": "6",
+            "participantId": "Customer",
+            "role": "Customer"
+        },
+        {
+            "text": "I\u2019m very sorry to hear that. Let me see if there\u2019s another way to fix the issue. Please hold on for a minute.",
+            "modality": "text",
+            "id": "7",
+            "participantId": "Agent",
+            "role": "Agent"
+        }
+    ]
+}
