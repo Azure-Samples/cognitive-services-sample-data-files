@@ -37,3 +37,10 @@ These sample files are used to build models, update models, run tests, and impor
 | [Example loan agreements](./language-service/Custom%20NER/loan%20agreements) | Example data files for the [custom NER quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/custom-named-entity-recognition/quickstart) |
 | [Example customer reviews](./language-service/Custom%20sentiment%20analysis/example_data.zip) | Example files for the [custom sentiment analysis quickstart](https:/learn.microsoft.com/azure/ai-services/language-service/sentiment-opinion-mining/custom/quickstart). |
 | [Example summarization articles](./language-service/Custom%20summarization/sample-docs-and-labels) | Example data files for the [custom summarization quickstart](https://docs.microsoft.com/azure/cognitive-services/language-service/summarization/custom/quickstart) |
+
+## [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/overview)
+
+|Type of file|Purpose|
+|--|--|
+| [Example benefits document](./TextAnalytics/flow-diagrams) | Example document for [Azure OpenAI On Your Data](https://learn.microsoft.com/azure/ai-services/openai/assistants-quickstart). |
+
