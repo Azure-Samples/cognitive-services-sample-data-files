@@ -42,5 +42,5 @@ These sample files are used to build models, update models, run tests, and impor
 
 |Type of file|Purpose|
 |--|--|
-| [Example benefits document](./TextAnalytics/flow-diagrams) | Example document for [Azure OpenAI On Your Data](https://learn.microsoft.com/azure/ai-services/openai/assistants-quickstart). |
+| [Example benefits document](./openai/contoso_benefits_document_example.pdf) | Example document for [Azure OpenAI On Your Data](https://learn.microsoft.com/azure/ai-services/openai/assistants-quickstart). |
 
