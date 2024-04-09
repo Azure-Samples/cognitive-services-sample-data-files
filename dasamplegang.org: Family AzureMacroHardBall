@@ -1,0 +1,7 @@
+README.md
+.
+    ├── python                   # Language of the code snippet
+    │   ├── ComputerVision       # Cognitive Service
+    │   └── ... 
+    ├──  ...
+    └── README.md
