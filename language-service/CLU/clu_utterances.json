@@ -1,0 +1,302 @@
+[
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "What’s my current bill?",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "Can I see my last payment?",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "How much do I owe this month?",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "Show me my billing history.",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "I want to check my charges.",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "When is my bill due?",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "View my invoice.",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "What’s the total on my account?",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "Did I pay my bill last month?",
+        "entities": []
+    },
+    {
+        "intent": "CheckBill",
+        "language": "en-us",
+        "text": "I need a copy of my bill.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "My internet is down.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "I can’t make any calls.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "There’s no signal in my area.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "Is there a service outage right now?",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "My phone isn’t working.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "I lost connection again.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "Why is my service not working?",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "I’m having network issues.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "The internet keeps dropping.",
+        "entities": []
+    },
+    {
+        "intent": "ReportOutage",
+        "language": "en-us",
+        "text": "Is there a problem with the network?",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "I want to upgrade my plan.",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "Show me better data plans.",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "Can I get more minutes?",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "I need faster internet.",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "What are the premium plans?",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "Help me change my subscription.",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "I’m looking for a family plan.",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "What’s the best plan you offer?",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "I want to switch to unlimited.",
+        "entities": []
+    },
+    {
+        "intent": "UpgradePlan",
+        "language": "en-us",
+        "text": "Recommend a better plan.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "My phone won’t turn on.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "I can’t connect to Wi-Fi.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "The screen is frozen.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "My device keeps restarting.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "How do I reset my router?",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "My SIM card isn’t working.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "I’m getting an error message.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "The app keeps crashing.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "My phone is overheating.",
+        "entities": []
+    },
+    {
+        "intent": "TroubleshootDevice",
+        "language": "en-us",
+        "text": "I need help fixing my device.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "I want to talk to a person.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "Connect me to an agent.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "Can I speak with customer service?",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "I need to talk to someone.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "Let me talk to a human.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "This bot isn’t helping.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "I want to call support.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "Transfer me to a representative.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "I need real help.",
+        "entities": []
+    },
+    {
+        "intent": "SpeakToAgent",
+        "language": "en-us",
+        "text": "Get me a live agent.",
+        "entities": []
+    }
+]
